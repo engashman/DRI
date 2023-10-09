@@ -68,12 +68,12 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 14px; /* Adjust the font size as needed */    
+    font-size: 12px; /* Adjust the font size as needed */    
     font-weight: bold;
     line-height: 2;
 }
 
 #resultSection h2 {
     color: #0ecd25;
-    font-size: 18px; /* Adjust the font size as needed */
+    font-size: 16px; /* Adjust the font size as needed */
 }
