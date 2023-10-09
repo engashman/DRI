@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    max-width: 450px;
-    margin: 50px auto;
+    max-width: 500px;
+    margin: 60px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -26,6 +26,7 @@ h1 {
     text-align: center;
     color: #281fdc;
     font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
 }
 
 div {
@@ -36,6 +37,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #010101;
+    font-weight: bold;
 }
 
 input,
@@ -43,7 +45,8 @@ select {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 18px;
+   font-size: 16px;
+    font-weight: bold;
 }
 
 button {
@@ -55,6 +58,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold;
 }
 
 button:hover {
@@ -63,7 +67,9 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 16px; /* Adjust the font size as needed */
+    font-size: 16px; /* Adjust the font size as needed */    
+    font-weight: bold;
+    line-height: 2;
 }
 
 #resultSection h2 {
