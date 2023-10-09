@@ -1,0 +1,68 @@
+img {
+    max-width: 25%; /* Set the maximum width to 50% of its container */
+    height: auto;   /* Maintain the aspect ratio */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 10px; /* Add some bottom margin */
+    /* Add more styles as needed */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #281fdc;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #010101;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #281fdc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0ecd25;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#resultSection h2 {
+    color: #0ecd25; /* Set the color to red (you can replace this with your preferred color) */
+}

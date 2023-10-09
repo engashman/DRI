@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nutrition Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Image as the header -->
+        <img src="C:\Users\HP\Desktop\LG Smart TV\DRI\Logo.jpg" alt="Header Image">
+        <h1>Nutrition Calculator</h1>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" onchange="populateAgeOptions()">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="pregnant1">Pregnant Female Trimester 1</option>
+                <option value="pregnant2">Pregnant Female Trimester 2</option>
+                <option value="pregnant3">Pregnant Female Trimester 3</option>
+                <option value="lactating1">Lactating Female 0-6 Months</option>
+                <option value="lactating2">Lactating Female 6-12 Months</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="ageGroup">Age Group:</label>
+            <select id="ageGroup"></select>
+        </div>
+
+        <div>
+            <label for="nutrient">Select Nutrient:</label>
+            <select id="nutrient" onchange="handleNutrientSelection()">
+                <option value="eer">Estimated Energy Requirement (EER) cal/day</option>
+                <option value="carbohydrates">Carbohydrates g/day</option>
+                <option value="protein">Protein g/day</option>
+                <option value="totalFiber">Total Fiber g/day</option>
+                <option value="water">Water L/day</option>
+                <option value="vitamins">Vitamins</option>
+                <option value="minerals">Minerals</option>
+            </select>
+        </div>
+
+        <div id="subSelectionSection" style="display: none;">
+            <label for="subSelection">Select Sub-Nutrient:</label>
+            <select id="subSelection"></select>
+        </div>
+
+        <div id="resultSection">
+            <h2>Calculation Result</h2>
+            <div id="result">Calculation result will appear here</div>
+        </div>
+
+        <button onclick="calculateNutrition()">Calculate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
