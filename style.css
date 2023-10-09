@@ -37,6 +37,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #010101;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -45,7 +46,7 @@ select {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
-   font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
 }
 
